@@ -15,6 +15,50 @@ h1{
     padding-right: 8.5px;
 }
 
+/* Text alongside images */
+
+.textHead{
+    color: #000000;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1.3em;
+    text-align: left;
+    background: #f5f51b;
+    margin: -100px 0px -5px 0px;
+    padding: 3px;
+    padding-left: 20px;
+    font-weight: bold;
+    
+}
+
+.textSubHead{
+    color: #ffffff;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1em;
+    text-align: left;
+    /* background: rgb(0, 0, 0); */
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+   
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text {
+    display: flex;
+    /*float: right;*/
+    /*background-color: #f6f9fc;*/
+    overflow: hidden;
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'Cairo', sans-serif;
+    /* background-color: rgb(0, 0, 0); */
+    text-align: left;
+    margin: 0px 0px -20px 0px;
+    padding-left: 20px;
+    padding-bottom: 2px;
+}
+
 body {
     background: linear-gradient(358deg, #2f2f2f, #000000);
     background-size: 400% 400%;
@@ -23,6 +67,7 @@ body {
     -moz-animation: AnimationName 30s ease infinite;
     animation: AnimationName 30s ease infinite;
 }
+
 
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 51%}
