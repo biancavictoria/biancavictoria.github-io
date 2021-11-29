@@ -74,34 +74,15 @@ h5{
     font-weight: normal;
 }
 
+section {
+    min-height: 100vh; /* minus the height of the footer */
+}
+
 body {
-    background: linear-gradient(358deg, #2f2f2f, #000000);
-    background-size: 400% 400%;
-
-    -webkit-animation: AnimationName 30s ease infinite;
-    -moz-animation: AnimationName 30s ease infinite;
-    animation: AnimationName 30s ease infinite;
+    /* background: linear-gradient(358deg, #2f2f2f, #000000); */
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(47,47,47,1) 29%, rgba(59,59,59,1) 100%) fixed;
 }
-
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 51%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 51%}
-}
-
-
-
 
 
 

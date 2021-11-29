@@ -39,6 +39,7 @@ EMAIL: byvictor@uci.edu
    <!-- you would also link to Bootstrap here! -->
   <title>Bianca Victoria Portfolio</title>
   <script src="jquery.min.js"></script>
+  <script type="text/javascript" src="js/tom.js"></script>
   <style>
 
     
@@ -77,14 +78,23 @@ EMAIL: byvictor@uci.edu
     <h4>
       Production
     </h4>
-    <img src="tomImages/MainBackground.png" alt="" id="MainTom" class="image">
-    <img src="tomImages/productionSchedule.png" alt="" id="ProductionSchedule" class="image">
-    <img src="tomImages/ingameScreen.png" alt="" id="InGameTom" class="image">
+    <img src="tomImages/MainBackground.png" alt="" id="mainTom" class="image">
+
+        <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+
+
+    <img src="tomImages/productionSchedule.png" alt="" id="prodTom" class="image">
+    <img src="tomImages/ingameScreen.png" alt="" id="gameTom" class="image">
     <h4>
       2D Art
     </h4>
-    <img src="tomImages/CharacterIcons.JPG" alt="" id="CharacterIcons" class="image">
-    <img src="tomImages/CharacterSprites.JPG" alt="" id="CharacterSprites" class="image">
+    <img src="tomImages/CharacterIcons.JPG" alt="" id="iconTom" class="image">
+    <img src="tomImages/CharacterSprites.JPG" alt="" id="spriteTom" class="image">
     <h5>
       Three classes of our characters are druid, necromancer, and fire mage.
     </h5>
@@ -103,7 +113,7 @@ EMAIL: byvictor@uci.edu
     <h4>
       UI
     </h4>
-    <img src="tomImages/spellbookUI.png" alt="" id="spellbookUI" class="image">
+    <img src="tomImages/spellbookUI.png" alt="" id="spellTom" class="image">
   </div>
   <div style="margin-left: 52%; margin-right: 5%; height: 100px; padding: 5px"> 
       <div class="textHead">
@@ -136,12 +146,6 @@ EMAIL: byvictor@uci.edu
 
   </div>
 </div>
-
-
-
-
-
-
 
 
 </body>

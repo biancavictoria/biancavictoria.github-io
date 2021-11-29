@@ -39,6 +39,7 @@ EMAIL: byvictor@uci.edu
    <!-- you would also link to Bootstrap here! -->
   <title>Bianca Victoria Portfolio</title>
   <script src="jquery.min.js"></script>
+  <script type="text/javascript" src="js/fool.js"></script>
   <style>
 
     
@@ -52,7 +53,7 @@ EMAIL: byvictor@uci.edu
   <div style="width: 100%;">
     <div style="width: 50%; height: 100px; float: left; "> 
         <h1> BIANCA VICTORIA </h1>
-        <h2>Illustrator, Character Artist</h2>
+        <h2>Game Producer, 2D Artist</h2>
     </div>
     <div style="margin-left: 50%; height: 100px; padding: 0px 0px 0px"> 
         <div class="topnav">
@@ -77,14 +78,14 @@ EMAIL: byvictor@uci.edu
     <h4>
       Production
     </h4>
-    <img src="foolImages/mainmenu.png" alt="" class="image">
-    <img src="foolImages/productionSchedule.png" alt="" class="image">
+    <img src="foolImages/mainmenu.png" alt="" id="fool1" class="image">
+    <img src="foolImages/productionSchedule.png" alt="" id="fool2" class="image">
     <h4>
       2D Art
     </h4>
-    <img src="foolImages/ingame1.png" alt="" class="image">
-    <img src="foolImages/ingame2.png" alt="" class="image">
-    <img src="foolImages/ingame3.png" alt="" class="image">
+    <img src="foolImages/ingame1.png" alt="" id="fool3" class="image">
+    <img src="foolImages/ingame2.png" alt="" id="fool4" class="image">
+    <img src="foolImages/ingame3.png" alt="" id="fool5" class="image">
   </div>
   <div style="margin-left: 52%; margin-right: 5%; height: 100px; padding: 5px"> 
       <div class="textHead">
@@ -114,6 +115,17 @@ EMAIL: byvictor@uci.edu
   </div>
 </div>
 
+ <!-- The Modal -->
+ <div id="myModal" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
 
 </body>
 </html>
