@@ -108,6 +108,20 @@ h3{
     
 }
 
+/* text POSITION in image-style */
+.text5 {
+    /*color: #d5dfff;*/
+    
+    text-decoration: none;
+    font-family: 'Mukta', sans-serif;
+    color: #052c2c;
+    background-color: white;
+    padding-left: 7px;
+    
+}
+
+.text5:hover {opacity: 0.7;}
+
 /*IMAGES*/
 
 #me {
