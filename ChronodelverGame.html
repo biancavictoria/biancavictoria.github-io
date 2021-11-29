@@ -65,11 +65,13 @@ EMAIL: byvictor@uci.edu
   </div>
 
   <div style="height: 100px; padding: 0px 0px 0px"> 
-    <div class="midnav">
-      <a  href="index.html">Tournament of Magirus</a>
-      <a class="active" href="ChronodelverGame.html">Chronodelver</a>
-      <a  href="Momentum.html">Momentum</a>
-      <a  href="FoolsGold.html">Fool's Gold</a>
+    <div id="navbar">
+      <div class="midnav">
+        <a href="index.html">Tournament of Magirus</a>
+        <a class="active" href="ChronodelverGame.html">Chronodelver</a>
+        <a href="Momentum.html">Momentum</a>
+        <a href="FoolsGold.html">Fool's Gold</a>
+      </div>
     </div>
 </div>
 
@@ -131,6 +133,20 @@ EMAIL: byvictor@uci.edu
       <!-- Modal Caption (Image Text) -->
       <div id="caption"></div>
 
+      <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
 
 </body>
 </html>

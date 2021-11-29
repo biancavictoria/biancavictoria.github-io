@@ -74,9 +74,6 @@ h5{
     font-weight: normal;
 }
 
-section {
-    min-height: 100vh; /* minus the height of the footer */
-}
 
 body {
     /* background: linear-gradient(358deg, #2f2f2f, #000000); */

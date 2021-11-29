@@ -64,10 +64,12 @@ EMAIL: byvictor@uci.edu
     </div>
   </div>
 
-  <div style="height: 100px; padding: 0px 0px 0px"> 
-    <div class="midnav">
-      <a class="active" href="VideoGameDevelopmentClub.html">Video Game Development Club</a>
-      <a href="ICSStudentCouncil.html">Information & Computer Science Student Council</a>
+  <div style="height: 100px; padding: 0px 0px 0px">
+    <div id="navbar"> 
+      <div class="midnav">
+        <a class="active" href="VideoGameDevelopmentClub.html">Video Game Development Club</a>
+        <a href="ICSStudentCouncil.html">Information & Computer Science Student Council</a>
+      </div>
     </div>
 </div>
 
@@ -128,7 +130,20 @@ EMAIL: byvictor@uci.edu
   <!-- Modal Caption (Image Text) -->
   <div id="caption"></div>
 
-
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+    </script>
 
 
 
