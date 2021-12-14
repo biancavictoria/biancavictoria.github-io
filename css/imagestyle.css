@@ -251,6 +251,14 @@
 
 #chron6:hover {opacity: 0.7;}
 
+#chron7 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#chron7:hover {opacity: 0.7;}
+
 /* FoolsGoldImages */
 #fool1 {
     border-radius: 5px;

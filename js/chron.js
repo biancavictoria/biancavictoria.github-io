@@ -11,6 +11,7 @@ function imageBigger() {
   var img4 = document.getElementById("chron4");
   var img5 = document.getElementById("chron5");
   var img6 = document.getElementById("chron6");
+  var img7 = document.getElementById("chron7");
 
  
 
@@ -54,6 +55,11 @@ function imageBigger() {
     captionText.innerHTML = this.alt;
   }
 
+  img7.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
 
 
   // Get the <span> element that closes the modal
