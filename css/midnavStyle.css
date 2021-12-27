@@ -11,7 +11,7 @@
 /* TEXT */
 .midnav a {
     float: center;
-    color: #ffffff;
+    color: #9b9b9b;
     text-align: center;
     padding: 0px 16px;
     text-decoration: none;
@@ -30,7 +30,7 @@
 /* TAB COLOR WHEN ON THAT PAGE */
 .midnav a.active{
     /*background-color: #f5f51b;*/
-    color: #f5f51b;
+    color: #ffffff;
     font-weight: normal;
 }
 
