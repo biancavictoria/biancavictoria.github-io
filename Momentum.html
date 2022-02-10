@@ -2,148 +2,234 @@
 <html lang="en">
 
 <!--
-WRITTEN BY: Bianca Ysabelle Victoria
-EMAIL: byvictor@uci.edu
+WRITTEN BY: Naomi Vuong
+EMAIL: naomiv1@uci.edu
 -->
 
 <head>
-  <!-- RESPONSIVE DESIGN -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <meta charset="utf-8">
-  <meta name="author" content="Bianca Victoria">
-  <meta name="description" content="Graphic design portfolio">
+  <meta name="author" content="Naomi Vuong">
+  <meta name="description" content="Naomi Vuong's Portfolio">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Taught how to make screen conform to the device Source: https://www.youtube.com/watch?v=_xkSvufmjEs&ab_channel=freeCodeCamp.org -->
+
    <!-- you would link to an external stylesheet here! -->
-
-  <!-- STYLESHEETS -->
-  <!-- Font Styles -->
-  <link href="css/style.css" rel="stylesheet" type="text/css"/>
-  <!-- Position Style -->
-  <link href="css/site-style.css" rel="stylesheet" type="text/css"/>
-  <!-- Position Styles -->
-  <link href="css/slider.css" rel="stylesheet" type="text/css"/>
-  <!-- Navigation Bar Style -->
-  <link href="css/navStyle.css" rel="stylesheet" type="text/css"/>
-  <!-- 2nd Navigation Bar Style -->
-  <link href="css/midnavStyle.css" rel="stylesheet" type="text/css"/>
-  <!-- About Style -->
-  <!-- <link href="css/about.css" rel="stylesheet" type="text/css"/>    -->
-  <!-- image style -->
-  <link href="css/imagestyle.css" rel="stylesheet" type="text/css"/>
-
-
-  <!-- FONTS -->
-  <link href="https://fonts.googleapis.com/css?family=Mukta" rel ="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel ="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Cairo" rel ="stylesheet">
-
+   <link rel="stylesheet" href="work1.css">
    <!-- you would also link to Bootstrap here! -->
-  <title>Bianca Victoria Portfolio</title>
-  <script src="jquery.min.js"></script>
-  <script type="text/javascript" src="js/mom.js"></script>
-  <style>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    
-  </style>
+  <title>Bianca Victoria's Portfolio</title>
+ 
 </head>
+
+
 <body>
-
-  <!-- Fixes bg problem, but now blocks other components-->
-  
-
-  <div style="width: 100%;">
-    <div style="width: 50%; height: 100px; float: left; "> 
-        <h1> BIANCA VICTORIA </h1>
-        <h2>Game Producer, 2D Artist</h2>
-    </div>
-    <div style="margin-left: 50%; height: 100px; padding: 0px 0px 0px"> 
-        <div class="topnav">
-          <a class="active" href="index.html">VIDEO GAME PROJECTS</a>
-          <a href="VideoGameDevelopmentClub.html">SOCIAL MEDIA & GRAPHIC DESIGN</a>
-          <a href="about.html">ABOUT</a>
+  <div class = "homescreen_intro">
+    <nav class ="container" id = "navbarID">
+      <nav class="navigation navbar-expand-md">
+        <a href="index.html" class="navbar-brand">
+          <img src="https://txt.1001fonts.net/img/txt/dHRmLjk2LmZmZmZmZi5RbWxoYm1OaC4w/kinda-sweet.regular.webp" alt="" width="70" height="34" style = "float:left">
+        </a>
+        <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#ResponsiveNav" 
+            aria-controls="ResponsiveNav" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <img src = "Pictures_Used/Hamburger_icon.svg.png" alt = "" width = "30" height = "30">
+        </button>
+            
+        
+        <div class="collapse navbar-collapse" id="ResponsiveNav">
+          <ul class="navbar-nav ms-auto">
+            <li><a href="index.html" alt = "Skip to Home"><strong>Home</strong></a></li>
+            <li><a href="tournamentofmagirus.html" alt = "Skip to Works"><strong>Works</strong></a></li>
+            <li><a href="about.html" alt = "Skip to About Me"><strong>About Me</strong></a></li>
+          </ul>
         </div>
-    </div>
-  </div>
-
-  <div style="height: 100px; padding: 0px 0px 0px"> 
-    <div id="navbar">
-      <div class="midnav">
-        <a href="index.html">Tournament of Magirus</a>
-        <a href="ChronodelverGame.html">Chronodelver</a>
-        <a class="active" href="Momentum.html">Momentum</a>
-        <a href="FoolsGold.html">Fool's Gold</a>
+      </nav>
+    </nav>
+    <div class = "main_header container">
+      <div class ="row">
+        <h1  class = "col-lg-12">Momentum</h1>
+        <h2 class = "col-lg-12">Video Game Development Club</em><br></h2>
       </div>
     </div>
+      
+  </div>
+  
+<!-- NEW STUFF -->
+<div class="container">
+  <section class="container2">
+    <div class="left-half">
+      <article>
+        <h1 class= NavWorks>Works</h1>
+        <nav class="nav flex-column">
+          <a class="nav-link" href="tournamentofmagirus.html">Tourament of Magirus</a>
+          <a class="nav-link" href="continuum.html">Continuum</a>
+          <a class="nav-link active" href="momentum.html">Momentum</a>
+          <a class="nav-link" href="savinggalania.html">Saving Galania</a>
+          <a class="nav-link" href="foolsgold.html">Fool's Gold</a>
+          <a class="nav-link" href="VGDCsocialmedia.html">Video Game Development Club</a>
+        </nav>
+      </article>
+    </div>
+    <div class="right-half">
+      <article>
+        <h1 class= Works>What is Momentum?</h1>
+        <p class= GameIntro>Momentum is a cyberpunk platformer where you play as Libby and kick robotic enemies with her military augmented legs. Libby joins the Resistance, who joins together to defeat and gain justice for their torn home.</p>
+        <p class= GameIntro2> <em><span style= "font-weight: lighter; color: rgb(3, 3, 3);">Roles:</span></em> Concept Artist, Sprite Artist, UI artist</p>
+        <p class= GameIntro2> <em><span style= "font-weight: lighter; color: rgb(3, 3, 3);">Team Size:</span></em> 10</p>
+        <p class= GameIntro2> <em><span style= "font-weight: lighter; color: rgb(3, 3, 3);">Project Length:</span></em> 7 months</p>
+        <p class= GameIntro2> <em><span style= "font-weight: lighter; color: rgb(3, 3, 3);">Responsibilities:</span></em> Concept cyberpunk character art and drones, create a character sprite, collaborate with other departments to ensure the concept art reflects narrative and universe</p>
+        <p class= GameIntro2> <em><span style= "font-weight: lighter; color: rgb(3, 3, 3);">Status:</span></em> Discontinued due to production</p>
+        
+        <div class="ContainerSplitWorks">
+          <!-- ROW 0 -->
+          <div class="row align-items-end">
+            <div class="col">
+              <h1 class= Works>Summary of Responsibilities</h1>
+              <p class = ImageCaption>
+                I research cybernetic references and problem solved how to apply them to character concepts.
+              </p>
+              <p class = ImageCaption>
+                I concepted all character and enemy art and applied feedback given by the art team.
+              </p>
+              <p class = ImageCaption>
+                I created the main character sprite in collaboration with the character animator.
+              </p>
+              <p class = ImageCaption>
+                I collaborated with the design and writing teams so that concept art reflects character backstory and world.
+              </p>
+              <p class = ImageCaption>
+                I created dos terminal themed UI assets in collaboration with UI programmer.
+              </p>
+            </div>
+          <div class="col">
+            <img src="Pictures_Used/NaomiPortrait.jpg" alt="" class="image">
+          </div>
+          </div>
+
+          
+          <h1 class= Works>Concept Art</h1>
+          <!-- ROW 1 -->
+          <div class="row align-items-start">
+            <!-- image n caption open -->
+            <div class="col">
+              <div>
+                <img src="momImages/a.png" alt="" class="image">
+              </div>
+              <p class = ImageCaption>
+                <br><br><span style="font-weight: bold;"><em>Libby Uemura - Vengeful Kicker</em></span>
+              </p>
+              <p class = ImageSubCaption>
+                The main protagonist who wants revenge against the doctor who augmented her legs and justice for her home in the slums.
+              </p>
+            </div>
+            <!-- image n caption end -->
+            
+            <!-- image n caption open -->
+            <div class="col">
+              <div>
+                <img src="momImages/b.png" alt="" class="image">
+              </div>
+              <p class = ImageCaption>
+                <br><br><span style="font-weight: bold;"><em>Shell Caulder - Optimistic Peacemaker</em></span>
+              </p>
+              <p class = ImageSubCaption>
+                One of the bright leaders of the Resistance who has a leg exoskeleton for running.
+              </p>
+            </div>
+            <!-- image n caption end -->
+          </div>
+          <!-- ROW 2 -->
+          <div class="row align-items-center">
+            <!-- image n caption open -->
+            <div class="col">
+              <div>
+                <img src="momImages/c.png" alt="" class="image">
+              </div>
+              <p class = ImageCaption>
+                <br><br><span style="font-weight: bold;"><em>Layton Briggs - Leader of the Resistance</em></span>
+              </p>
+              <p class = ImageSubCaption>
+                The violent Resistance leader who has an augmented left eye and external respirator to enhance his lungs.
+              </p>
+            </div>
+            <!-- image n caption end -->
+
+            <!-- image n caption open -->
+            <div class="col">
+              <div>
+                <img src="momImages/d.png" alt="" class="image">
+              </div>
+              <p class = ImageCaption>
+                <br><br><span style="font-weight: bold;"><em>Dr. Sartorious Hammond - The Corrupt Scientist</em></span>
+              </p>
+              <p class = ImageSubCaption>
+                The doctor who controls everything in Progress, the city in power, and experiments on people from the slums.
+              </p>
+            </div>
+            <!-- image n caption end -->
+          </div>
+
+          <!-- ROW 3 -->
+          <div class="row align-items-end">
+            <div class="col">
+              <div>
+                <img src="momImages/gun1.png" alt="" class="image">
+              </div>
+              <p class = ImageCaption>
+                <br><br><span style="font-weight: bold;"><em>Gun Shooter Drone Concepts</em></span>
+              </p>
+              <p class = ImageSubCaption>
+                Concept thumbnails for gun drones that will follow the player and attack.
+              </p>
+            </div>
+            <div class="col">
+              <div>
+                <img src="momImages/gun2.png" alt="" class="image">
+              </div>
+              <p class = ImageCaption>
+                <br><br><span style="font-weight: bold;"><em>Gun Drone Concepts</em></span>
+              </p>
+              <p class = ImageSubCaption>
+                Chosen gun drone concept by the team. I added details as to the reasoning for my design choices.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </article>
+    </div>
+  </section>
 </div>
 
-<div style="width: 100%;">
-  <div style="width: 45%; height: 100px; margin-left: 5%;">
-    <h4>
-      Character Concept Art
-    </h4>
+
+  
+
+
+  
+
+          
     
-    <img src="momImages/a.png" id="mom1" class="image">
-    <img src="momImages/b.png" id="mom2" class="image">
-    <img src="momImages/c.png" id="mom3" class="image">
-    <img src="momImages/d.png" id="mom4" class="image">
-    <h4>
-      Enemy Drone Concept Art
-    </h4>
-    <img src="momImages/gun1.png" id="mom5" class="image">
-    <img src="momImages/gun2.png" id="mom6" class="image">
-
-    <!-- The Modal -->
-  <div id="myModal" class="modal">
-
-    <!-- The Close Button -->
-    <span class="close">&times;</span>
-
-    <!-- Modal Content (The Image) -->
-    <img class="modal-content" id="img01">
-
-    <!-- Modal Caption (Image Text) -->
-    <div id="caption"></div>
-  </div>
-  </div>
-  <div style="margin-left: 52%; margin-right: 5%; height: 100px; padding: 5px"> 
-      <div class="textHead">
-        Momentum
-      </div>
-      <div class="text">
-        <br>
-        Momentum is a cyberpunk platformer where you play as Libby and fight robotic enemies with her military augmented legs.
-      </div>
-      <div class="textSubHead">
-        Concept Art
-      </div>
-      <div class="text">
-        With enough intense evil robot and prosthetic research, I created character and enemy concepts for our dystopian cyberpunk world. I also created the sprite illustration of Libby. 
-        <br>
-        <br>
-      </div>
-      <img src="momImages/run.gif" alt="" class="image">
-
-  </div>
-</div>
 
 
-
-<script>
-  window.onscroll = function() {myFunction()};
+  <!-- Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted">
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      Original Website Coded by: 
+      <a class="text-reset fw-bold">Naomi Vuong</a>
+      Modified by:
+      <a class="text-reset fw-bold">Bianca Victoria</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
   
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
-  
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-  </script>
-
-
-
-
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
+

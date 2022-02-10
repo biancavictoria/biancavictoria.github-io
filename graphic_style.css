@@ -1,0 +1,13 @@
+.GraphicsLayout{
+    margin-bottom: 1rem;
+}
+
+h1{
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    font-family: 'Dongle', sans-serif;
+
+    color: rgb(99, 63, 184);
+}
