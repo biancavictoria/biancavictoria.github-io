@@ -1,0 +1,341 @@
+
+
+  html, body {
+    height: 100%;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+ 
+  .navigation ul {
+    background-color: transparent;
+    object-fit: cover;
+  }
+
+
+  .navigation a {
+    display: block;
+    color: rgb(252, 252, 252);
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+    font-size: medium;
+  }
+  
+  .navigation li:hover {
+    background-color: rgb(78, 44, 170);
+    border-radius: 50px;
+  }
+
+
+
+  .homescreen_intro {
+    background-image: linear-gradient(rgba(127, 57, 160, 0.5), rgba(64, 58, 146, 0.425)), url("Pictures_Used/IMG_7131.gif");
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+
+  }
+
+  .main_header {
+    position: absolute;
+    bottom: 10%;
+    
+  }
+
+  .main_header h1 {
+    font-size: 3rem;
+    margin-left: 2rem;
+  }
+
+  .main_header h2 {
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    font-weight: lighter;
+
+  }
+
+  .main_header a{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+  }
+
+
+/*Customize Button*/
+
+.nav_butn {
+  font-size: 16px;
+  position: relative;
+  padding: 0.75rem 1.75rem;
+  border-radius: 50px; /*makes the button round*/
+  display: inline-block;
+  color: white;
+  box-shadow: 0 0 15px rgb(116, 28, 124);
+  background-image: linear-gradient(to right, #7f00ff 0%, #e100ff 51%, #5f43c5 100%);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+.nav_butn:hover {
+  background-image: linear-gradient(to right, #a351f5 0%, #e765f8 51%, #8371c5 100%);
+  box-shadow: 0 0 15px rgb(148, 68, 155);
+
+}
+
+ /*About Me Main and Work Base*/
+
+ .container .cardDiv {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+ }
+
+ .cardDiv {
+   width: 100%;
+   padding: 2rem;
+   box-shadow: 1.4rem 1.4rem 4rem rgba(0,0,0,.2);
+   display: flex;
+   align-items: center;
+   border-radius: .8rem;
+   padding-bottom: 4rem;
+ }
+
+.cardIMG {
+  min-width: 28rem;
+  max-width: 30rem;
+  height: 28rem;
+  transform: translateX(-5rem);
+  position: relative;
+  box-shadow: 1.4rem 1.4rem 4rem rgba(0,0,0,.2);
+  border-radius: .8rem;
+}
+.cardIMG img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: .8rem;
+}
+
+.cardTitle {
+  font-size: 3.3rem;
+  margin: 1.5rem 0 1.5rem;
+  color:rgb(113, 44, 170);
+}
+
+.cardSubtitle {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  color:rgb(164, 68, 184)
+}
+
+.sectionText {
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    color: rgb(54, 31, 119);
+}
+
+.cardContent a {
+  /* button*/
+  display: inline-block;
+  padding: 1.5rem;
+  
+  
+}
+
+@media screen and (max-width: 1068px) {
+  .cardDiv {
+    max-width: 60rem;
+    padding-top: 1.2rem;
+  }
+  .cardIMG {
+    min-width: 30rem;
+    max-width: 35rem;
+  }
+}
+
+
+@media screen and (max-width: 920px) {
+  .cardDiv {
+    padding: 2.5rem;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 3rem;
+    
+    margin-bottom: 3rem;
+  }
+
+  .cardIMG {
+    min-width: 100%;
+    max-width: 100%;
+    transform: translate(0, 0); /*move the img into the container it is in so no overlap when it is in smaller dimension*/
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cardDiv {
+    padding: 2rem;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-bottom: 2.5rem;
+  }
+  .cardTitle {
+    font-size: 2.5rem;
+  }
+  .cardSubtitle {
+    font-size: 1.4rem;
+  }
+  .sectionText {
+    font-size: 1rem;
+  }
+
+  .cardIMG {
+    min-width: 100%;
+    max-width: 100%;
+    height: 20rem;
+    transform: translate(0, 0); /*move the img into the container it is in so no overlap when it is in smaller dimension*/
+  }
+
+  .container.cardDiv {
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+
+
+/*Work Section*/
+
+.cardDiv.work {
+  width: 100%;
+  max-width: 100rem;
+  padding: 1.5rem;
+  box-shadow: 0 1.4rem 8rem rgba(0,0,0,.2);
+  display: flex;
+  flex-direction: column;
+  border-radius: .8rem;
+  text-align: left;
+  padding-bottom: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.cardIMG-work {
+  min-width: 20rem;
+  max-width: 34rem;
+  height: 20rem;
+  transform: translate(0,0);
+  position: relative;
+}
+
+.cardIMG-work img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: .8rem;
+  padding-bottom: 2rem;
+}
+.cardSubtitle.work {
+
+  display: block;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  color:rgb(164, 68, 184);
+  font-size: 2.2rem;
+}
+
+.cardContent.work {
+  text-align: left;
+}
+.cardSubheader {
+  font-size: 1.3rem;
+  color:rgb(120, 100, 153);
+}
+
+/* Contact Me */
+
+.Contact {
+  /*border: .5rem solid rgb(16, 38, 87);*/
+  border-radius: 0.8rem;
+  box-shadow: 1.4rem 1.4rem 4rem rgba(0,0,0,.2);
+  padding-top: 2rem;
+  
+  margin: 2rem;
+
+  width: 100%;
+  height: 40rem;
+  background: 
+    /* top, transparent red */ 
+    linear-gradient(
+      rgba(75, 79, 107, 0.39), 
+      rgba(75, 79, 107, 0.39)
+    ),
+    /* bottom, image */
+    url("Pictures_Used/background.png");
+ 
+}
+.container.Contact {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  
+}
+
+.container.Contact .cardTitle {
+  color:rgb(211, 213, 221);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input[type = text], textarea {
+  width: 100%;
+  padding: .2rem;
+  resize: vertical;
+  margin: .5rem;
+  background-color:rgb(232, 232, 236);
+  border-radius: .8rem;
+}
+
+input[type = submit] {
+  border-width: 0;
+  box-shadow: 0 0 15px rgb(116, 28, 124);
+  background-image: linear-gradient(to right, #1316a57a 0%, #5b219e 51%, #bd3fbd 100%);
+
+
+}
+
+input[type = submit]:hover {
+  background-image: linear-gradient(to right, #4749c57a 0%, #5b219e 51%, #bd3fbd 100%);
+
+}
+
+#comment {
+  margin: .5rem;
+  
+}
+
+label {
+  color: white
+}
+
+
+
+/* Footer */
+.text-center.p-4{
+  background-color: #8371c5;
+  padding-top: 5rem;
+  margin-top: 10rem;
+}
