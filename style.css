@@ -33,23 +33,92 @@
     border-radius: 50px;
   }
 
+  /* NEW DIV FOR NAV BAR */
 
+  .navholder {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    z-index:2;
+  }
+
+/* NEW */
+
+  .video-container {
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.video-container:before {
+  content:"";
+  position: absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  z-index:1;
+  background:linear-gradient(to right,rgba(65, 0, 255, 0.4),rgba(255, 0, 232, 0.3));
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  color: #dc0000;
+  padding: 10px;
+}
+  
+  /* ORIGINAL */
 
   .homescreen_intro {
-    background-image: linear-gradient(rgba(127, 57, 160, 0.5), rgba(64, 58, 146, 0.425)), url("Pictures_Used/IMG_7131.gif");
     height: 80%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     color: white;
+    /* background-image: linear-gradient(rgba(127, 57, 160, 0.5), rgba(64, 58, 146, 0.425)), url("Pictures_Used/momentum.gif");
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white; */
+  }
 
+  .homescreen_intro video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+  }
+
+  .homescreen_intro:before {
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    z-index:1;
+    background:linear-gradient(to right,rgba(65, 0, 255, 0.4),rgba(255, 0, 232, 0.3));
   }
 
   .main_header {
     position: absolute;
     bottom: 10%;
-    
+    z-index:2;
   }
 
   .main_header h1 {
