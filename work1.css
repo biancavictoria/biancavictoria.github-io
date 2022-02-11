@@ -79,6 +79,17 @@
     color: white;
   }
 
+    /* CONTINUUM */
+    .homescreen_intro_continuum {
+      background-image: linear-gradient(rgba(115, 41, 150, 0.5), rgba(64, 58, 146, 0.425)), url("conImages/bg.png");
+      height: 60%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      color: white;
+    }
+
  /* HEADER TITLE STUFF */
   .main_header {
     /* position: absolute; */
