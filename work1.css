@@ -70,7 +70,7 @@
 
   /* MOMENTUM */
   .homescreen_intro_momentum {
-    background-image: linear-gradient(rgba(115, 41, 150, 0.5), rgba(64, 58, 146, 0.425)), url("momImages/MainMenu.png");
+    background-image: linear-gradient(rgba(85, 31, 110, 0.5), rgba(45, 41, 102, 0.425)), url("momImages/mainmenu_art.png");
     height: 60%;
     background-position: center;
     background-repeat: no-repeat;
@@ -81,7 +81,7 @@
 
     /* CONTINUUM */
     .homescreen_intro_continuum {
-      background-image: linear-gradient(rgba(115, 41, 150, 0.5), rgba(64, 58, 146, 0.425)), url("conImages/bg.png");
+      background-image: linear-gradient(rgba(115, 41, 150, 0.5), rgba(64, 58, 146, 0.425)), url("conImages/conheader.png");
       height: 60%;
       background-position: center;
       background-repeat: no-repeat;
@@ -475,4 +475,62 @@ a.nav-link.active{
   background-color: #8371c5;
   padding-top: 5rem;
   margin-top: 10rem;
+}
+
+
+/* Momentum Video Crop */
+#momentumplay{
+  width: 32em;
+  height: 17em; 
+  object-fit: cover; 
+  object-position: 100% 0;
+}
+
+/* Summary Images */
+.summaryimage {
+  min-width: 29rem;
+  max-width: 35rem;
+  height: 23rem;
+  transform: translate(0,0);
+  position: relative;
+}
+
+#foolsummaryimage{
+  min-width: 29rem;
+  max-width: 35rem;
+  height: 19rem;
+  transform: translate(0,0);
+  position: relative;
+}
+
+#vgdcart{
+  min-width: 29rem;
+  max-width: 35rem;
+  height: 16.5rem;
+  transform: translate(0,0);
+  position: relative;
+}
+
+#vgdcsocial{
+  min-width: 29rem;
+  max-width: 35rem;
+  height: 18.5rem;
+  transform: translate(0,0);
+  position: relative;
+}
+
+#vgdcgraphic{
+  min-width: 29rem;
+  max-width: 35rem;
+  height: 15rem;
+  transform: translate(0,0);
+  position: relative;
+}
+
+#consummaryimage{
+  min-width: 29rem;
+  max-width: 29rem;
+  height: 28.5rem;
+  transform: translate(0,0);
+  position: relative;
 }
