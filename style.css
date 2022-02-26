@@ -305,11 +305,13 @@
 
 .cardIMG-work {
   min-width: 20rem;
-  max-width: 45rem;
-  height: 27rem;
+  max-width: 50rem;
+  height: 25rem;
   transform: translate(0,0);
   position: relative;
 }
+
+
 
 .cardIMG-work img {
   width: 100%;
@@ -319,6 +321,25 @@
   border-radius: .8rem;
   padding-bottom: 2rem;
 }
+
+.cardIMG-about {
+  min-width: 20rem;
+  max-width: 45rem;
+  height: 27rem;
+  transform: translate(0,0);
+  position: relative;
+}
+
+.cardIMG-about img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: .8rem;
+  padding-bottom: 2rem;
+}
+
+
 .cardSubtitle.work {
 
   display: block;
