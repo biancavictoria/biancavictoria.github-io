@@ -151,6 +151,11 @@
 
  /*About Me Main and Work Base*/
 
+ .container {
+  position: relative;
+  width: 100%;
+ }
+
  .container .cardDiv {
    display: flex;
    align-items: center;
@@ -391,7 +396,6 @@ label {
 /* NEW CHANGES FROM BONKA */
 .container2 {
   display: flex;
-  position: relative;
 } 
 
 .left-half {
