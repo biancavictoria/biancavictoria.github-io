@@ -90,6 +90,7 @@
       color: white;
     }
 
+
  /* HEADER TITLE STUFF */
   .main_header {
     /* position: absolute; */
@@ -100,12 +101,13 @@
   }
 
   .main_header h1 {
-    font-size: 4.5rem;
+    font-size: 305%;
     margin-left: 2rem;
   }
 
   .main_header h2 {
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
+    font-size: 200%;
     margin-left: 2rem;
     padding-top: 1rem;
     font-weight: lighter;
@@ -389,7 +391,7 @@ label {
 /* NEW CHANGES FROM BONKA */
 .container2 {
   display: flex;
-  
+  position: relative;
 } 
 
 .left-half {
