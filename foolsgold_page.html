@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bianca Victoria Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="Pictures_Used/bianca_.jpg" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>CREATIVE PORTFOLIO</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>HOME</a> 
+    <a href="about_page.html" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://www.linkedin.com/in/bianca-victoria-88a1a9183/"><i class="fa fa-linkedin w3-hover-opacity"></i></a>  
+    <!-- <i class="fa fa-instagram w3-hover-opacity"></i> -->
+    <a href="https://ahubun.itch.io"><i class="fa fa-gamepad w3-hover-opacity"></i></a>
+    <!-- <a href="https://twitter.com/bonkavictoria"><i class="fa fa-twitter w3-hover-opacity"></i></a> -->
+    <a href="https://www.artstation.com/biancavictoria"><i class="fa fa-paint-brush w3-hover-opacity"></i></a>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="conImages/mainmenu.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b>My Portfolio</b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <!-- <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">ALL</button>
+      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button> -->
+    </div>
+    </div>
+  </header>
+
+
+   <!-- Header -->
+   <header id="project_title">
+    <!-- <a href="#"><img src="conImages/mainmenu.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span> -->
+    <div class="w3-container">
+    <h1><b>Fool's Gold</b></h1>
+      <div class="w3-container w3-white">
+        <!-- <img src="Pictures_Used/videogameclips.mp4" alt="Norway" style="width:100%"> -->
+        <video width="100%" controls>
+          <source src="foolImages/foolvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </header>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About</b></h4>
+    <p>Fool's Gold is a 2D auto-runner for the GameDev.tv Game Jam 2021.</p>
+    <p>My responsibility was to overlook the production schedule and facilitate problem solving discussions. I also created all 2D background, platform, and UI elements.</p>
+    <!-- <p>My responsibility is to overlook the overall production of the upcoming game. This includes managing the map development, destruction features, & content creation.</p> -->
+    <p>Check out my project here: <a href="https://superavi64.itch.io/fools-gold"> LINK</a>  !</p>
+    <hr>
+    
+    <h4>Screenshots</h4>
+    <!-- Progress bars / Skills -->
+    <hr>
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="foolImages/ingame1.png" alt="Norway" style="width:100%">
+        <div class="w3-container w3-white">
+          <p>Collecting coins slow you down, so avoid them!</p>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="foolImages/ingame2.png" alt="Norway" style="width:100%">
+        <div class="w3-container w3-white">
+          <p>Lots of coins to avoid here!</p>
+        </div>
+      </div>
+      <div class="w3-third w3-container">
+        <img src="foolImages/ingame3.png" alt="Norway" style="width:100%">
+        <div class="w3-container w3-white">
+          <p>Player finally meets up with humble country girl he fell in love with</p>
+        </div>
+      </div>
+    </div>
+
+
+    <hr>
+    <hr>
+    <hr>
+
+  </div>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="socialar_page.html"><img src="Pictures_Used/background.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Social AR Projects</b></p>
+        <p>Snapchat Lens Studio projects I managed under the Fishermen Labs company.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="continuum_page.html"><img src="conImages/mainmenu.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Continuum</b></p>
+        <!-- <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p> -->
+        <p>Space fantasy roguelike game where you must save a cursed space tower from the evil Time Lich.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <a href="moira_page.html"><img src="moiraImages/moirabg.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Moira's Home</b></p>
+        <p>Strategy game where you possess demonic furniture to scare as many people off as you can!</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="tournamentofmagirus_page.html"><img src="tomImages/Main.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Tournament of Magirus</b></p>
+        <p>Turn based fantasy RPG where you battle against other sorcerers with whimsical creatures along your side.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <a href="foolsgold_page.html"><img src="foolImages/mainmenu.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Fool's Gold</b></p>
+        <p>2D auto-runner game where you try to avoid coins to live a humble life and woo a humble small town girl.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <a href="art_page.html"><img src="vgdcImages/vgdcbg.png" alt="Norway" style="width:100%" class="w3-hover-opacity"></a>
+      <div class="w3-container w3-white">
+        <p><b>Graphic Design and Art</b></p>
+        <p>Digital art I created such as graphic design, character concept art, and fan art.</p>
+      </div>
+    </div>
+  </div>
+  
+  
+  <hr>
+  <hr>
+  <div class="w3-black w3-center w3-padding-24">Thank you for visiting!</a></div>
+  <hr>
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
